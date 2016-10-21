@@ -9,3 +9,7 @@
 + itzhaopin
 	
   这个是scrapy中的列子，练习怎么使用scrapy的
+  
++ news
+  
+  这个是scrapy采集新浪新闻(国内新闻)的例子
