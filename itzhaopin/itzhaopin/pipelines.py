@@ -8,4 +8,11 @@
 
 class ItzhaopinPipeline(object):
     def process_item(self, item, spider):
-        return item
+        print("henry:", item['desc'])
+        # return item
+
+    def open_spider(self, spider):
+        print("henry open spider")
+
+    def close_spider(self, spider):
+        print("henry close spider")
